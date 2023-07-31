@@ -1,0 +1,98 @@
+.order-container {
+    margin: 0 auto;
+    .order-book {
+        display: flex;
+        line-height: 30px;
+        height: 100px;
+        justify-content: space-between;
+        border: 1px solid #dddd;
+        background-color: #fff;
+        margin: 12px;
+        align-items: center;
+        border-radius: 6px;
+        .book-content {
+            display: flex;
+            width: 500px;
+           
+            img {
+                width: 50px;
+                height: 50px;
+                margin-right: 12px;
+                margin-top: 4px;
+                border-radius: 4px;
+            }
+
+            .title {
+                width: 350px;
+                margin-right: 12px;
+            }
+        }
+        .action {
+            display: flex;
+            margin-left: 26px;
+            width: 500px;
+            justify-content: space-between;
+            .quantity {
+                margin-left: 18px;
+            }
+            .sum {
+
+            }
+            .order-del {
+                padding: 6px 12px;
+                border: 1px solid #1677ff;
+                border-radius: 5px;
+                color: white;
+                background-color: #1677ff;
+                margin-right: 12px;
+
+
+            }
+        }
+    }
+
+    .order-sum {
+        margin-top: 14px;
+        border-bottom: 1px solid #dddd;
+        background-color: #fff;
+        border-radius: 6px;
+       
+        .calculate {
+            display: flex;
+            padding: 24px 0;
+            margin: 0 24px;
+            justify-content: space-between;
+            font-size: 16px;
+            .sum-final {
+                color: #ee4d2d;
+                font-size: 24px;
+            }
+        }
+         button {
+            
+            padding: 12px 0;
+            width: 100%;
+            color: #fff;
+            background-color:#ee4d2d;
+            border: 1px solid #ee4d2d;
+            border-radius: 5px;
+            cursor: pointer;
+         }
+    }
+}
+
+
+@media screen and (max-width: 695px) { 
+   .order-book {
+    max-height: 200px;
+    max-width: 414px;
+    
+        .book-content {
+            max-width: 100%;
+            .title {
+               max-width: 50%;               
+            }
+        }
+        
+    }
+}

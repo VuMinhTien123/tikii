@@ -1,0 +1,43 @@
+.infor {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    height: 350px;
+    background-color: #dddd;
+    margin-top: 80px;
+    border-radius: 12px;
+    box-shadow: 15px 10px 10px #dddd;
+
+    .infor-img {
+        width: 250px;
+        height: 240px;
+        margin: 0 auto;
+        margin-top: 18px;
+        cursor: pointer;
+        border-radius: 12px;
+        // margin-left: 18px;
+    }
+    span {
+        font-weight: 600;
+        
+        
+    }
+
+    .infor-content {
+        font-size: 20px;
+        line-height: 32px;
+        // margin-left: 40px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .infor {
+        max-width: 100%;
+    }
+    .infor-img {
+        display: none;
+        
+    } 
+ }
+
