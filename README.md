@@ -3,9 +3,11 @@
 
 ## Run project
 
+
 ###  server 
 ### cd backend ---> `npm install`
 ### npm start
+
 
 ##  client
 ### cd frontend ---> `npm install`
@@ -13,6 +15,7 @@
 
 
 ### Server runs on http://localhost:8080 and client on http://localhost:3000
+
 
 ## Accounts
 
